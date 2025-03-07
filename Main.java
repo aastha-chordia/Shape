@@ -46,3 +46,12 @@ public class Main {
                     Sphere sphere = new Sphere(sphereRadius);
                     displayResults(sphere);
                     break;
+                case 5:
+                    System.out.print("Enter radius of the cylinder: ");
+                    double cylinderRadius = scanner.nextDouble();
+                    System.out.print("Enter height of the cylinder: ");
+                    double height = scanner.nextDouble();
+                    Cylinder cylinder = new Cylinder(cylinderRadius, height);
+                    displayResults(cylinder);
+                    break;
+                
