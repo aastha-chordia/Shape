@@ -8,4 +8,7 @@ class Sphere extends Shape implements Volume {
         return 4 * Math.PI * dimension1 * dimension1;
     }
 
-    
+    public double calculatePerimeter() {
+        return 0; // Spheres do not have a perimeter
+    }
+
