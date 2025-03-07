@@ -19,3 +19,5 @@ public class Main {
             System.out.print("Enter your choice: ");
             
             choice = scanner.nextInt();
+            switch (choice) {
+               
