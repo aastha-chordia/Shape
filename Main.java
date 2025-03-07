@@ -34,4 +34,9 @@ public class Main {
                     Rectangle rectangle = new Rectangle(length, width);
                     displayResults(rectangle);
                     break;
-               
+                case 3:
+                    System.out.print("Enter side of square: ");
+                    double side = scanner.nextDouble();
+                    Square square = new Square(side);
+                    displayResults(square);
+                    break;
