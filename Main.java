@@ -54,4 +54,11 @@ public class Main {
                     Cylinder cylinder = new Cylinder(cylinderRadius, height);
                     displayResults(cylinder);
                     break;
-                
+                case 6:
+                    System.out.print("Enter base side of the pyramid: ");
+                    double baseSide = scanner.nextDouble();
+                    System.out.print("Enter height of the pyramid: ");
+                    double pyramidHeight = scanner.nextDouble();
+                    EquilateralPyramid pyramid = new EquilateralPyramid(baseSide, pyramidHeight);
+                    displayResults(pyramid);
+                    break;
