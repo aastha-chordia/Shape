@@ -5,7 +5,7 @@ class Sphere extends Shape implements Volume {
         super(radius, 0);
     }
     public double calculateArea() {
-        return 4 * Math.PI * dimension1 * dimension1;
+        return 4 * 3.14 * dimension1 * dimension1;
     }
 
     public double calculatePerimeter() {
@@ -13,6 +13,6 @@ class Sphere extends Shape implements Volume {
     }
 
     public double calculateVolume() {
-        return (4.0 / 3.0) * Math.PI * Math.pow(dimension1, 3);
+        return (4.0 / 3.0) * 3.14 * Math.pow(dimension1, 3);
     }
 }
