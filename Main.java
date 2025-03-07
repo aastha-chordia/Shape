@@ -20,4 +20,10 @@ public class Main {
             
             choice = scanner.nextInt();
             switch (choice) {
+                case 1:
+                    System.out.print("Enter radius of the circle: ");
+                    double radius = scanner.nextDouble();
+                    Circle circle = new Circle(radius);
+                    displayResults(circle);
+                    break;
                
