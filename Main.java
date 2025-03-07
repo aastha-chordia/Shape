@@ -71,3 +71,15 @@ public class Main {
                  }
         } while (choice != 7);
        
+ 
+        scanner.close();
+    }
+
+    public static void displayResults(Shape shape) {
+        System.out.println("Area: " + shape.calculateArea());
+        System.out.println("Perimeter: " + shape.calculatePerimeter());
+        if (shape instanceof Volume) {
+            System.out.println("Volume: " + ((Volume) shape).calculateVolume());
+        }
+    }
+}
