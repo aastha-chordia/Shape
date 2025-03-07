@@ -62,3 +62,7 @@ public class Main {
                     EquilateralPyramid pyramid = new EquilateralPyramid(baseSide, pyramidHeight);
                     displayResults(pyramid);
                     break;
+                 case 7:
+                    System.out.println("Exiting program.");
+                    break;
+               
