@@ -10,3 +10,7 @@ class Square extends Shape {
         return dimension1 * dimension1;
     }
 
+    public double calculatePerimeter() {
+        return 4 * dimension1;
+    }
+}
