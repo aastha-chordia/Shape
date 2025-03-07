@@ -2,10 +2,10 @@
 // 23070126003
 class Sphere extends Shape implements Volume {
     public Sphere(double radius) {
-        super(radius, 0);
+        super(radius, 0,0,0);
     }
     public double calculateArea() {
-        return 4 * 3.14 * dimension1 * dimension1;
+        return 4 * 3.14 * dim_one * dim_one;
     }
 
     public double calculatePerimeter() {
@@ -13,6 +13,6 @@ class Sphere extends Shape implements Volume {
     }
 
     public double calculateVolume() {
-        return (4.0 / 3.0) * 3.14 * Math.pow(dimension1, 3);
+        return (4.0 / 3.0) * 3.14 * Math.pow(dim_one , 3);
     }
 }
