@@ -16,3 +16,9 @@ class EquilateralPyramid extends Shape implements Volume {
     public double calculatePerimeter() {
         return 4 * dimension1;
     }
+    
+    public double calculateVolume() {
+        return (1.0 / 3.0) * dimension1 * dimension1 * height;
+    }
+}
+
