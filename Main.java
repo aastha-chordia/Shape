@@ -65,4 +65,6 @@ public class Main {
                  case 7:
                     System.out.println("Exiting program.");
                     break;
-               
+                default:
+                    System.out.println("Invalid choice. Try again.");
+           
