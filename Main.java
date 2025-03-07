@@ -18,4 +18,4 @@ public class Main {
             System.out.println("7. Exit");
             System.out.print("Enter your choice: ");
             
-            
+            choice = scanner.nextInt();
