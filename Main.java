@@ -26,4 +26,12 @@ public class Main {
                     Circle circle = new Circle(radius);
                     displayResults(circle);
                     break;
+                 case 2:
+                    System.out.print("Enter length: ");
+                    double length = scanner.nextDouble();
+                    System.out.print("Enter width: ");
+                    double width = scanner.nextDouble();
+                    Rectangle rectangle = new Rectangle(length, width);
+                    displayResults(rectangle);
+                    break;
                
