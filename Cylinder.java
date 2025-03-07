@@ -8,3 +8,7 @@ class Cylinder extends Shape implements Volume {
         super(radius, 0);
         this.height = height;
     }
+
+    public double calculateArea() {
+        return 2 * Math.PI * dimension1 * (dimension1 + height);
+    }
