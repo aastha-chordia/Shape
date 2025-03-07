@@ -40,3 +40,9 @@ public class Main {
                     Square square = new Square(side);
                     displayResults(square);
                     break;
+                case 4:
+                    System.out.print("Enter radius of the sphere: ");
+                    double sphereRadius = scanner.nextDouble();
+                    Sphere sphere = new Sphere(sphereRadius);
+                    displayResults(sphere);
+                    break;
