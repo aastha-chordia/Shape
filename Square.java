@@ -2,14 +2,14 @@
 // 23070126003
 class Square extends Shape {
     public Square(double side) {
-        super(side, side);
+        super(side, side,0,4);
     }
 
     public double calculateArea() {
-        return dimension1 * dimension1;
+        return dim_one * dim_one;
     }
 
     public double calculatePerimeter() {
-        return 4 * dimension1;
+        return 4 * dim_one ;
     }
 }
